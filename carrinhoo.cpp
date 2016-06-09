@@ -12,9 +12,9 @@ int main(int argc, char* args[])
 	//declarando as variaveis
 	//foi usado bool porque quero atribuir valores verdadeiros, falsos e\ou nulos
 	bool sair = false;
-	//foi usado string porque eu quero que o usuario der nomea minha variavel
+	//foi usado string porque eu quero que o usuario der nome a minha variavel
 	string piloto1, piloto2;
-	//usamos int pq eu quero trabalharcom variaveis inteiras, numeros inteiros
+	//usamos int pq eu quero trabalhar com variaveis inteiras, numeros inteiros
 	int total1 = 0, total2 = 0;
 
 	//imprimindo na tela o pedido dos nomes dos pilotos e salvando os nomes que o usuario fornecer
@@ -50,18 +50,18 @@ int main(int argc, char* args[])
 		cout << "LARGADA:                                                                    CHEGADA:" << endl;
 		//colocando o nome do primeiro jogador no piloto
 		cout << "Piloto 1:" << piloto1 << endl;
-		//Usando o numero aleatorio Total1 para definir a quantidade de espaços que o carrinho vai andar
+		//Usando o numero aleatorio Total1 para definir a quantidade de espaÃ§os que o carrinho vai andar
 		imprimir_espacos(total1);
 		//imprimindo o carrinho na tela
 		cout << "-|o=o>" << endl;
 		
 
 		//imprimindo na tela o valor que o piloto 1 andou
-		cout << "Valor que andou: " << total1 << endl;  //Total de espaços andando pelo carrinho 1
+		cout << "Valor que andou: " << total1 << endl;  //Total de espaÃ§os andando pelo carrinho 1
 
 		//colocando o nome do segundo jogador no piloto
 		cout << "Piloto 2:" << piloto2 << endl;
-		//Usando o numero aleatorio Total1 para definir a quantidade de espaços que o carrinho vai andar
+		//Usando o numero aleatorio Total1 para definir a quantidade de espaÃ§os que o carrinho vai andar
 		imprimir_espacos(total2);
 		//imprimindo o carrinho na tela
 		cout << "-|o=o>" << endl;
@@ -103,7 +103,7 @@ int main(int argc, char* args[])
 }
 
 
-//usando a funçao que ira fazer um "super poder" de imprimir os espacos
+//usando a funÃ§ao que ira fazer um "super poder" de imprimir os espacos
 void imprimir_espacos(int total)
 {
 	//abrindo a funcao para imprimir o numero de espacos que eu quero
